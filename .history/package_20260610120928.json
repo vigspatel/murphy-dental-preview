@@ -6,9 +6,12 @@
     "author": "Modern Doc Media <sales@moderndocmedia.com>",
     "license": "UNLICENSED",
     "scripts": {
-        "start": "gatsby develop",
+        "start": "gatsby develop --host 0.0.0.0",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
         "preview": "gatsby clean && gatsby build && gatsby serve",
         "prepare": "husky install",
+        "install": "npm install --legacy-peer-deps",
         "deploy": "./scripts/deploy.sh"
     },
     "browserslist": [
@@ -29,6 +32,7 @@
         "@emotion/react": "^11.10.4",
         "@emotion/styled": "^11.10.4",
         "@fontsource/nunito": "^4.5.10",
+        "@mdx-js/react": "^1.6.22",
         "@radix-ui/react-navigation-menu": "^1.2.14",
         "@reach/accordion": "^0.16.1",
         "@reach/dialog": "^0.16.2",
@@ -64,7 +68,6 @@
     "devDependencies": {
         "@babel/preset-react": "^7.18.6",
         "@babel/preset-typescript": "^7.18.6",
-        "@modern-doc/cdk": "^7.5.2",
         "@types/mdx": "^2.0.2",
         "@types/mdx-js__react": "^1.5.5",
         "@types/node": "^18.7.23",

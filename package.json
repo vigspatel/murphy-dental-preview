@@ -11,6 +11,7 @@
         "serve": "gatsby serve",
         "preview": "gatsby clean && gatsby build && gatsby serve",
         "prepare": "husky install",
+        "install": "npm install --legacy-peer-deps",
         "deploy": "./scripts/deploy.sh"
     },
     "browserslist": [
