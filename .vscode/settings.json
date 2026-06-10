@@ -1,0 +1,14 @@
+{
+  "editor.codeActionsOnSave": [  
+    "source.organizeImports",     
+    "source.fixAll.eslint",   
+],
+  "eslint.validate": [
+    "markdown",
+    "mdx",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}

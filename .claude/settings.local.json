@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"onKeyDown\\\\|onKeyUp\\\\|handleKey\" /e/1Coding/murphy-dental/src/components/layout/*.tsx)",
+      "WebFetch(domain:api.figma.com)",
+      "Bash(claude mcp:*)",
+      "Bash(node figma-extract.mjs)",
+      "Bash(node generate-mdx.mjs)",
+      "Bash(curl -s -H \"X-Figma-Token: figd_XsUfc_kQkwIeqGVlOG7nH-oMDLVU8_pyOwAMXRGZ\" \"https://api.figma.com/v1/files/8aaglPfhCXQf6yDGar4tQT/nodes?ids=3115-11941\" -o \"e:/1Coding/murphy-dental/figma-node-check.json\")",
+      "Bash(node -e \":*)",
+      "Bash(curl -s -H \"X-Figma-Token: figd_XsUfc_kQkwIeqGVlOG7nH-oMDLVU8_pyOwAMXRGZ\" \"https://api.figma.com/v1/files/8aaglPfhCXQf6yDGar4tQT/nodes?ids=3115-10952\" -o \"e:/1Coding/murphy-dental/figma-shining3d.json\")",
+      "Bash(mv \"general-dentistry/oral-cancer\" \"general-dentistry/oral-cancer-screening\")",
+      "Bash(mv \"general-dentistry/cleanings-&-exams\" \"general-dentistry/cleanings-and-exams\")",
+      "Bash(mv \"cosmetic-dentistry/icon-resin\" \"cosmetic-dentistry/icon-resin-infiltration\")",
+      "Bash(mv \"cosmetic-dentistry/gummy-smile\" \"cosmetic-dentistry/gummy-smile-treatment\")",
+      "Bash(mv \"restorative-dentistry/root-canal\" \"restorative-dentistry/root-canal-therapy\")",
+      "Bash(mv \"restorative-dentistry/dentures\" \"restorative-dentistry/dentures-and-partials\")",
+      "Bash(mv \"restorative-dentistry/chipped\" \"restorative-dentistry/chipped-cracked-tooth-repair\")",
+      "Bash(mv \"restorative-dentistry/inlays-&-nlays\" \"restorative-dentistry/inlays-and-onlays\")",
+      "Bash(mv \"oral-surgery/wisdom-teeth\" \"oral-surgery/wisdom-teeth-removal\")",
+      "Bash(mv \"special-needs-dentistry/sleep-apnea\" \"special-needs-dentistry/sleep-apnea-treatment\")",
+      "Bash(mv \"special-needs-dentistry/fotona-night\" \"special-needs-dentistry/fotona-night-lase\")",
+      "Bash(mv \"special-needs-dentistry/occlusal-&-sports\" \"special-needs-dentistry/occlusal-and-sports-mouthguards\")",
+      "Bash(mv \"technology/fotona-light\" \"technology/fotona-light-walker\")",
+      "Bash(mv \"technology/shining-3d\" \"technology/shining-3d-ios-and-photogrammetry\")",
+      "Bash(mv \"technology/cerec-same-day\" \"technology/cerec-same-day-crowns\")",
+      "Bash(mv \"technology/3d-cone\" \"technology/3d-cone-beam-x-ray\")",
+      "Bash(mv \"technology/ceramill-matron\" \"technology/ceramill-matron-milling-machine\")",
+      "Bash(mv \"technology/metismile-facial\" \"technology/metismile-facial-3d-scanner\")"
+    ]
+  }
+}
